@@ -27,7 +27,7 @@ G.add_nodes_from(range(n_nodes))
 
 for i in range(n_nodes):
     for j in (i+1, n_nodes):
-        if random.random() < 0.5:
+        if random.random() < 0.66:
             G.add_edge(i, j)
 
 
